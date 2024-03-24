@@ -180,3 +180,41 @@ button {
   cursor: pointer;
   text-transform: ;
 }
+
+@media (min-width: 937px) {
+  /* Converted from 58.62rem to 937px */
+  body {
+    background-position: 125% 1px;
+    background-size: 30%;
+  }
+
+  main {
+    background-image: url(images/bg-bottom.svg);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 0 25.5rem;
+  }
+
+  .toggle-wrapper {
+    max-width: 320px; /* Converted from 20rem to 320px */
+  }
+
+  .card_grid {
+    display: flex;
+    margin: 40px auto; /* Converted from 2.5rem to 40px */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 0;
+    padding: 24px; /* Converted from 3rem to 24px */
+    max-width: 640px; /* Converted from 40rem to 640px */
+    height: 448px; /* Converted from 28rem to 448px */
+    box-shadow: 6px 5px 19px 1px var(--card-text-light);
+  }
+
+  .card:nth-child(2) {
+    height: 472px;
+  }
+}
