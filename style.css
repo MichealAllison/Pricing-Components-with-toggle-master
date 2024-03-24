@@ -100,6 +100,7 @@ input {
   height: 25rem;
   border-radius: 8px;
   cursor: pointer;
+  padding: 15px;
   box-shadow: -5px 5px 13px 1px var(--card-text-light);
 }
 
@@ -226,7 +227,7 @@ button:hover {
 
   .card {
     margin: 0;
-    padding: 15px;
+    padding: 3rem;
     max-width: 40rem;
     height: 28rem;
     box-shadow: 6px 5px 19px 1px var(--card-text-light);
