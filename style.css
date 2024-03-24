@@ -181,6 +181,7 @@ button {
   font-size: 12px;
   cursor: pointer;
   text-transform: uppercase;
+  margin-bottom: 15px;
   /* letter-spacing: 2px; */
 }
 
