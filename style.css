@@ -5,8 +5,10 @@
   --card-text-light: hsl(234, 14%, 74%);
   --card-text-dark: hsl(233, 13%, 49%);
   --card-price-text: hsl(232, 13%, 33%);
+
   --card-gradient-1: hsl(236, 72%, 79%);
   --card-gradient-2: hsl(237, 63%, 64%);
+
   --Linear-Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
 }
 
@@ -26,7 +28,7 @@ body {
   background-size: 70%;
   max-width: 100%;
   text-align: center;
-  margin: 24px auto; /* Converted from 1.5rem to 24px */
+  margin: 1.5rem auto;
 }
 
 body img {
@@ -40,15 +42,15 @@ li {
 h1 {
   color: var(--card-text-light);
   font-weight: 700;
-  font-size: 24px; /* Converted from 1.6rem to 24px */
+  font-size: 1.6rem;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-  margin: 16px auto; /* Converted from 1rem to 16px */
+  margin: 1rem auto;
   justify-content: center;
-  gap: 32px; /* Converted from 2rem to 32px */
+  gap: 2rem;
 }
 
 .header-text {
@@ -62,8 +64,8 @@ input {
 
 .toggle-label {
   display: block;
-  width: 43.2px; /* Converted from 2.7rem to 43.2px */
-  height: 20.7px; /* Converted from 1.29rem to 20.7px */
+  width: 2.7rem;
+  height: 1.29rem;
   border-radius: 5rem;
   cursor: pointer;
   position: relative;
@@ -72,8 +74,8 @@ input {
 
 .toggle-label::after {
   content: "";
-  width: 24px;
-  height: 24px;
+  width: 1rem;
+  height: 1rem;
   background-color: var(--page-background);
   position: absolute;
   border-radius: 50%;
@@ -94,8 +96,8 @@ input {
 .card {
   background: white;
   width: max-content;
-  margin: 32px auto; /* Converted from 2rem to 32px */
-  height: 400px; /* Converted from 25rem to 400px */
+  margin: 2rem auto;
+  height: 25rem;
   border-radius: 8px;
   cursor: pointer;
   box-shadow: -5px 5px 13px 1px var(--card-text-light);
@@ -108,7 +110,7 @@ input {
 .basic-text,
 .master-text,
 .professional-text {
-  padding-top: 16px; /* Converted from 1rem to 16px */
+  padding-top: 1rem;
   font-size: 13px;
 }
 
@@ -125,8 +127,8 @@ input {
 .basic-cost,
 .master-cost,
 .professional-cost {
-  font-size: 48px; /* Converted from 3rem to 48px */
-  padding: 24px 0; /* Converted from 1.5rem to 24px */
+  font-size: 3rem;
+  padding: 1.5rem 0;
 }
 
 .basic-cost,
@@ -137,13 +139,13 @@ input {
 .card-list,
 .active-card-list {
   display: grid;
-  margin: 8px 0 44.8px; /* Converted from 0.5rem to 8px and 2.8rem to 44.8px */
+  margin: 0.5rem 0 2.8rem;
 }
 
 .card-list li,
 .active-card-list li {
   font-size: 16px;
-  padding: 16px 0; /* Converted from 13px to 16px */
+  padding: 13px 0;
   margin: 0 20px;
 }
 
@@ -178,6 +180,7 @@ button {
   font-size: 12px;
   cursor: pointer;
   text-transform: uppercase;
+  /* letter-spacing: 2px; */
 }
 
 button:hover {
@@ -197,8 +200,7 @@ button:hover {
   color: white;
 }
 
-@media (min-width: 937px) {
-  /* Converted from 58.62rem to 937px */
+@media (min-width: 58.62rem) {
   body {
     background-position: 125% 1px;
     background-size: 30%;
@@ -212,25 +214,26 @@ button:hover {
   }
 
   .toggle-wrapper {
-    max-width: 320px; /* Converted from 20rem to 320px */
+    max-width: 20rem;
   }
 
   .card_grid {
     display: flex;
-    margin: 40px auto; /* Converted from 2.5rem to 40px */
+    margin: 2.5rem auto;
     justify-content: center;
     align-items: center;
   }
 
   .card {
     margin: 0;
-    padding: 24px; /* Converted from 3rem to 24px */
-    max-width: 640px; /* Converted from 40rem to 640px */
-    height: 448px; /* Converted from 28rem to 448px */
+    padding: 15px;
+    max-width: 40rem;
+    height: 28rem;
     box-shadow: 6px 5px 19px 1px var(--card-text-light);
   }
 
   .card:nth-child(2) {
-    height: 472px;
+    height: 29.5rem;
+    max-width: 55rem;
   }
 }
