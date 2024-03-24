@@ -99,7 +99,6 @@ input {
   border-radius: 8px;
   cursor: pointer;
   box-shadow: -5px 5px 13px 1px var(--card-text-light);
-  padding: 16px; /* Added padding */
 }
 
 .card:nth-child(2) {
@@ -178,7 +177,24 @@ button {
   border-radius: 5px;
   font-size: 12px;
   cursor: pointer;
-  text-transform: ;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: transparent;
+  color: var(--card-gradient-1);
+  border-color: var(--card-text-light);
+}
+
+.card:nth-child(2) button {
+  background: white;
+  color: var(--card-gradient-1);
+}
+
+.card:nth-child(2) button:hover {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
 }
 
 @media (min-width: 937px) {
