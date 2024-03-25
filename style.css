@@ -57,40 +57,25 @@ h1 {
   color: var(--card-text-dark);
 }
 
-input {
-  position: absolute;
-  visibility: hidden;
-}
-
-.toggle-label {
-  display: block;
-  width: 2.7rem;
-  height: 1.29rem;
-  border-radius: 5rem;
-  cursor: pointer;
+.box {
+  background-color: hsl(223, 31%, 20%);
   position: relative;
-  background-color: var(--card-text-light);
+  top: -26px;
+  width: 76px;
+  height: 27px;
+  border-radius: 20px;
 }
 
-.toggle-label::after {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background-color: var(--page-background);
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: hsl(6, 70%, 34%);
+  border-radius: 50%;
   position: absolute;
-  border-radius: 50%;
-  top: 2px;
-  left: 24px;
-  transition: left 300ms;
-  border-radius: 50%;
-}
-
-.toggle-btn:checked ~ .toggle-label::after {
-  left: 4px;
-}
-
-.toggle-btn:checked ~ .toggle-label {
-  background: linear-gradient(var(--card-gradient-2), var(--card-gradient-1));
+  top: 5px;
+  left: 3px;
+  margin-left: 3px;
 }
 
 .card {
