@@ -213,9 +213,9 @@ button:hover {
     background-position: 0 25.5rem;
   }
 
-  .toggle-wrapper {
+  /* .toggle-wrapper {
     max-width: 20rem;
-  }
+  } */
 
   .card_grid {
     display: flex;
