@@ -59,7 +59,7 @@ h1 {
 
 .box {
   background-color: hsl(223, 31%, 20%);
-  position: relative;
+  position: Absolute ;
   top: -26px;
   width: 76px;
   height: 27px;
